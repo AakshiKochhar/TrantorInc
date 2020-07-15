@@ -118,7 +118,7 @@ def game():
                              10.0) * 10.0
             length_of_snake += 1        # Increase the size of snake when it reaches it target
 
-        time_tracker.tick(snake_speed) # For every second at most 13 frames should pass
+        time_tracker.tick(snake_speed)      # For every second at most 13 frames should pass
 
     pygame.quit()
     quit()
@@ -128,8 +128,7 @@ def game_score(score):
     """Keep track of score during game."""
     number = font_score.render("Your score: " + str(score), True,
                                yellow)      # Will take the single template and render it to a string
-    screen.blit(number, [0, 0])     # Overlaps the surface on the
-    # canvas at the rect position
+    screen.blit(number, [0, 0])     # Overlaps the surface on the canvas at the rect position
 
 
 def message_on_screen(text, colour):
