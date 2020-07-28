@@ -16,7 +16,7 @@ dataframe = pandas_datareader.data.DataReader("IBM", 'yahoo', start, end) # prep
 dataframe.tail()
 
 # Calculates the 'roling average'.
-closing_price = df['Adj Close']
+closing_price = dataframe['Adj Close']
 rolling_average = closing_price.rolling(window=40).mean()
 
 get_ipython().run_line_magic('matplotlib', 'inline')
