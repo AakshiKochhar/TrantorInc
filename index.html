@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Submission Page{% endblock %}
+
+{% block content %}
+<form action="#" method ="post">
+<b>{% for (x,y) in contents.items() %}</b>
+<b><p><type="text" name="nm">{{x,y}}</input><br></p></b>
+
+{% endfor %}
+
+</form>
+{% endblock %}
