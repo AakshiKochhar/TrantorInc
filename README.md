@@ -1,16 +1,16 @@
 # TrantorInc
 
-snakegame.py: 
+## snakegame.py: 
   - In the game of Snake, the player uses the arrow keys to move a "snake" around the board. As the snake finds food, it eats the food, and thereby grows larger.    
     The game ends when the snake either moves off the screen or moves into itself.
 
-questiongame.py:
+## questiongame.py:
   - This game will ask the user a bunch of questions and keep track of how many questions have been answered correctly.
   
-StockData.py / StockData.ipynb:
+## StockData.py / StockData.ipynb:
   - The program will use Pandas to plot and get statistics from stock data.
   
-webapi.py:
+## webapi.py:
   - This program is a build up of questiongame.py
   - Program will open the quiz in an interactive window and have the user complete said quiz through the web application.
   - Files used:
@@ -18,7 +18,7 @@ webapi.py:
       - base.html ------ Navbar layout code
       - index.html ------ Shows user correct answers on a new page
 
-imagedetection.py:
+## imagedetection.py:
   - Program will detect an object and draw a rectangle around the recognized object when located.
   - Files used:
       - haar_cascades.xml 
