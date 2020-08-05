@@ -16,12 +16,12 @@ webapi.py:
   - This program is a build up of questiongame.py
   - Program will open the quiz in an interactive window and have the user complete said quiz through the web application.
   - Files used:
-      • submitted.html    # Takes user to new page after the submission button has been clicked.
-      • base.html     # Navbar layout code
-      • index.html    # Shows user correct answers on a new page
+      - submitted.html    # Takes user to new page after the submission button has been clicked.
+      - base.html     # Navbar layout code
+      - index.html    # Shows user correct answers on a new page
 
 imagedetection.py:
   - Program will detect an object and draw a rectangle around the recognized object when located.
   - Files used:
-      • haar_cascades.xml 
-      • stopsign.jpg
+      - haar_cascades.xml 
+      - stopsign.jpg
