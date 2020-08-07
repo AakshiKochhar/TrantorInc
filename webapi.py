@@ -34,11 +34,11 @@ questions = {"What is the fifth month of the year?":"May",
 @app.route("/", methods=["POST", "GET"]) # Path will take user to the default home page of the game.
 def login():
     return render_template("submitted.html", contents=questions)
-    if request.method == "POST":
-        user = request.form["nm"]
-        return redirect(url_for("user", usr=user))
-    else:
-        return render_template("submitted.html") # Combines template with given dictionary and 
+    #if request.method == "POST":
+     #   user = request.form["nm"]
+     #   return redirect(url_for("user", usr=user))
+    #else:
+     #   return render_template("submitted.html") # Combines template with given dictionary and 
                                                  # will return an HttpResponse object with that rendered text
 
 
