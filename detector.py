@@ -1,4 +1,4 @@
-""" This program will detect a template from an image and draw a square around it. """
+""" This program will detect a template from an image and draw a rectangle around it. """
 
 import cv2  
 
