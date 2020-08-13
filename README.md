@@ -25,7 +25,7 @@
       - stopsign.jpg
 
 ## detector.py:
-  - """ This program will detect a template from an image and draw a rectangle around it. """
+  - This program will detect a template from an image and draw a rectangle around it.
   - Files used:
       - img.jpg 
       - template.jpg
