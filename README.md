@@ -31,5 +31,5 @@
       - template.jpg
 
 ## NumPy.py:
-  - This program use NumPy to mean normalize an ndarray  and separate it into several smaller ndarrays.
+  - This program will use NumPy to mean normalize an ndarray  and separate it into several smaller ndarrays.
   
